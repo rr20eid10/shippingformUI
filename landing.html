@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<nav class="navbar navbar-default navbar-custom">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <i class="glyphicon glyphicon-menu-hamburger gi-white"></i>
+      </a>
+      <p class="navbar-text text-uppercase u-ship" >U-SHIP</p>
+    </div>
+
+    <ul class="nav navbar-nav navbar-right navmargin" >
+        <li><i class="glyphicon glyphicon-new-window gi-white gi-13x marginright-10" ></i></li>
+        
+          <li><i class="fa fa-question-circle-o gi-white gi-13x" aria-hidden="true"></i></li>
+        </ul>
+  </div>
+</nav>
+
+<div class="container-fluid container-adjust">
+  
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1" >
+      
+      <div class="row margintop-30">
+        <div class="col-xs-12 col-sm-6 col-md-8">
+          <h2 class="">Add Shipping Rate</h2>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-2 margintop-20">
+          <button type="button" class="btn btn-default btn-cancel btn-block">Cancel</button>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-2 margintop-20">
+          <button type="button" class="btn btn-warning btn-block">Save</button>
+        </div>
+      </div> 
+      
+    </div>
+  </div>
+
+  <!-- Shipping container row-->
+  <div class="row" >
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 bg-wrapper">     
+
+
+      <!-- Shipping Region and Type -->
+      <div class="row row-adjust">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="row">
+             <div class="col-xs-12 col-sm-6 col-md-6">
+                <h4>Shipping Region and Type</h4>
+            </div>
+          </div>
+          
+
+          <div class="row">
+           <div class="col-xs-12 col-sm-6 col-md-6  margintop-10">
+              <p>Country <i class="fa fa-question-circle-o" aria-hidden="true"></i></p>
+              <input class="form-control" type="text" placeholder="e.g. Ground Shipping">
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6  margintop-10">
+              <p>Select Shipping Rate Type <i class="fa fa-question-circle-o" aria-hidden="true"></i></p>
+              <select class="form-control">
+                    <option>By Order Total</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                  </select>
+            </div>
+          </div>  
+        </div>
+      </div><!-- Shipping Region and Type -->
+
+
+
+      <!-- Shipping Options -->
+      <div class="row row-adjust">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="row">
+             <div class="col-xs-12 col-sm-6 col-md-6">
+                <h4>Shipping Options</h4>
+            </div>
+          </div>
+          
+
+          <div class="row">
+           <div class="col-xs-12 col-sm-6 col-md-6  margintop-10">
+              <p>Shipping Option Title <i class="fa fa-question-circle-o" aria-hidden="true"></i></p>
+              <input class="form-control" type="text" placeholder="e.g. Ground Shipping">
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6  margintop-10">
+              <p>Estimated Deliver Time (optional) <i class="fa fa-question-circle-o" aria-hidden="true"></i></p>
+              <input class="form-control" type="text" placeholder="e.g. 3 - 5 days">
+            </div>
+          </div>  
+
+
+        </div>
+      </div><!-- Shipping Options -->
+
+
+
+
+      <!-- Order Total Ranges -->
+      <div class="row row-adjust">        
+        <div class="col-xs-12 col-sm-12 col-md-12 margintop-20">
+          
+          <table class="table table-responsive table-frame">
+            <tr>
+              <th class="text-uppercase">Order Total</th>
+                <th class="text-uppercase" colspan="2">Shipping Cost</th>
+            </tr>
+            <tr>
+              <td>
+                <form class="form-inline">
+                  <div class="form-group">
+                    <label for="orderTotalFrom">From</label>
+                    <input type="text" size="2" class="form-control" id="orderTotalFrom" placeholder="$0">
+                  </div>
+                  <div class="form-group marginlr-20">
+                    <label for="orderTotalupto">Up to</label>
+                    <input type="text"  size="2" class="form-control" id="orderTotalupto" placeholder="$1">
+                  </div>
+                  
+                </form>
+              </td>
+              <td>
+                 <form class="form-inline">
+                  <label for="orderTotalupto"></label>
+                  <input class="form-control" type="text" placeholder="$8.56"></td>
+                </form>
+              <td class="text-right"><i class="glyphicon glyphicon-trash gi-13x"></i></td>
+            </tr>
+             
+             <tr>
+              <td>
+                <form class="form-inline">
+                  <div class="form-group">
+                    <label for="orderTotalFrom">From</label>
+                    <input type="text" size="2" class="form-control" id="orderTotalFrom" placeholder="$1">
+                  </div>
+                  <div class="form-group  marginlr-20 ">
+                    <label for="orderTotalupto">Up to</label>
+                    <input type="text"  size="2" class="form-control" id="orderTotalupto" placeholder="$2">
+                  </div>
+                  
+                </form>
+              </td>
+              <td>
+                 <form class="form-inline">
+                  <label for="orderTotalupto"></label>
+                  <input class="form-control" type="text" placeholder="$10.56"></td></form>
+              <td class="text-right"><i class="glyphicon glyphicon-trash gi-13x"></i></td>
+            </tr>
+             
+
+             <tr>
+              <td>
+                <form class="form-inline">
+                  <div class="form-group">
+                    <label for="orderTotalFrom">From</label>
+                    <input type="text" size="2" class="form-control" id="orderTotalFrom" placeholder="$2">
+                  </div>
+                  <div class="form-group  marginlr-20">
+                    <label for="orderTotalupto">Up to</label>
+                    <input type="text"  size="2" class="form-control" id="orderTotalupto" placeholder="$4">
+                  </div>
+                  
+                </form>
+              </td>
+              <td>
+                 <form class="form-inline">
+                  <label for="orderTotalupto"></label>
+                  <input class="form-control" type="text" placeholder="$12.56"></td></form>
+              <td class="text-right"><i class="glyphicon glyphicon-trash gi-13x"></i></td>
+            </tr>
+
+            <tr>
+              <td>
+                <form class="form-inline">
+                  <div class="form-group">
+                    <label for="orderTotalFrom">From</label>
+                    <input type="text" size="2" class="form-control" id="orderTotalFrom" placeholder="$4">
+                  </div>
+                  <div class="form-group  marginlr-20">
+                    <label for="orderTotalupto">and up</label>
+                    
+                  </div>
+                  
+                </form>
+              </td>
+              <td>
+                 <form class="form-inline">
+                  <label for="orderTotalupto"></label>
+                  <input class="form-control" type="text" placeholder="$">
+                </td></form>
+              <td class="text-right">
+                <i class="glyphicon glyphicon-trash gi-13x"></i></td>
+            </tr>
+          </table>
+                 
+        </div> 
+      </div><!-- Order Total Ranges -->
+    
+
+
+        <div class="row add-on-icon marginbottom-30">
+          <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="paddingl-20"><i class="glyphicon glyphicon-plus-sign gi-13x"></i> <strong>Add Another Range</strong></div>
+          </div>
+        </div>
+
+    </div> <!-- /.bg-wrapper -->
+  </div> <!-- /Shipping container row-->
+</div><!-- /.container-fluid -->
+
+<div class="container-fluid ">
+  <div class="row marginbottom-30">
+    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1" >
+      
+      <div class="row margintop-10">
+        <div class="col-xs-12 col-sm-6 col-md-8">
+          
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-2 margintop-20">
+          <button type="button" class="btn btn-default btn-cancel btn-block">Cancel</button>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-2 margintop-20">
+          <button type="button" class="btn btn-warning btn-block">Save</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" ></script>
+
+</body>
+</html>
+

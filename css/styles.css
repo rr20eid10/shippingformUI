@@ -1,0 +1,76 @@
+
+
+body {
+	color:#4d4645;
+	background-color:#f8f8f8;
+
+}
+.container-adjust {
+	margin-top:-20px;
+}
+.navbar-custom {
+    color: #FFFFFF;
+    background-color: #005577;
+}
+
+.navbar .u-ship {
+	font-size:2em;
+	margin:5px;
+	color:#fff;
+}
+.navmargin {
+	margin: 20px 50px 0px 0px; 
+}
+
+.btn-cancel {
+	border:1px solid #ffa500;	
+	color:#ffa500;
+}
+
+.btn-cancel:hover,
+.btn-cancel:active {
+	border:1px solid #eea236;
+	background-color:#f0ad4e;
+	color:#fff;
+}
+.bg-wrapper {
+	background-color:#fff;
+	border:1px solid #d1d0d0;
+}
+table th { background-color:#f8f8f8; }
+table { border-collapse: collapse; }
+
+.table-frame {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.table-frame td:last-child { padding-right:20px; }
+.row-adjust { margin: 30px 5px 0px 5px; }
+
+
+
+
+
+/* ::::::::: MODULAR CLASSES :::::::::::: */
+
+
+/* ---- margins & padding ----- */
+
+.margintop-30 {	margin-top:30px; }
+.margintop-20 { margin-top:20px; }
+.margintop-10 { margin-top:10px; }
+.marginbottom-30 { margin-bottom:30px;}
+.marginlr-20 {padding: 0px 20px 0px 20px;}
+.marginright-10 {margin-right:10px;}
+.paddinglr-70 {padding:0px 70px;}
+.paddingl-20 {padding-left:20px;}  
+
+
+
+/* ---- icons ----- */
+
+.gi-13x{font-size: 1.3em; color: #005577;}
+.addon-icon { margin: 0px 5px 30px 5px; }
+.gi-white { color: #fff; }
+
